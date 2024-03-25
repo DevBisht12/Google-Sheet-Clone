@@ -25,3 +25,8 @@ This project is a simplified clone of Google Sheets built using Vite for fast de
 ## Contributing
 
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+
+## Project Preview
+![Sheet](https://github.com/DevBisht12/Google-Sheet-Clone/assets/161915446/3ca67eaa-c0fe-4617-8e4e-d9d2f55d19de)
+
+
