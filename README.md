@@ -1,4 +1,3 @@
-markdown
 # Google Sheet Clone
 
 This project is a simplified clone of Google Sheets built using Vite for fast development and leveraging the Context API for state management. It allows users to add more rows dynamically and customize cell properties such as font size, background color, and text color.
