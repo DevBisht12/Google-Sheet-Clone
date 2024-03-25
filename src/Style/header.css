@@ -1,0 +1,122 @@
+/* *{
+    border: none;
+} */
+/* svg{
+    margin: 8px;
+    border: none;
+} */
+
+.header{
+    display: flex;
+    width: 68%;
+    background-color: #edf2fa;
+    padding: 0.5rem 0.5rem;
+    border: none;
+    margin: 1rem;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+.selectFont{
+    width: 30%;
+    display: flex;
+    border: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.selectFont span{
+    margin: 8px;
+}
+.selectFont_Size{
+    border: none;
+}
+.selectFont select{
+    padding: 6px 5px;
+    width: 10vw;
+    border-radius: 0;
+    border: none;
+    width: 80%;
+    
+    margin: 8px;
+}
+.selectFont_Size button{
+    padding: 5px;
+    width: 2vw;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #ccdffd;
+    background: none;
+    margin: 8px;
+}
+.selectFont_Size input{
+    padding: 6px 5px;
+    width: 2vw;
+    border-radius: 0;
+    border: none;
+    width: 45px;
+    margin: 8px;
+}
+.selectFont_Size button:hover{
+    background-color: #f4f4f4;
+}
+.fontStyle{
+    border: none;
+}
+.fontStyle button{
+    padding: 6px 5px;
+    width: 2vw;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #ccdffd   ;
+    background: none;
+    margin: 8px;
+}
+.fontStyle button:hover{
+    background-color: #f4f4f4;
+}
+.colorPicker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+}
+.fontColor button{
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #edf2fa;
+    background: none;
+    margin: 8px;
+}
+.fontColor button:hover{
+    border: 1px solid #ccdffd;
+    background-color: #f4f4f4;
+}
+.fontColor {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.colorPicker button{
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #edf2fa;
+    background: none;
+    margin: 8px;
+}
+
+.colorPicker button:hover{
+    border: 1px solid #ccdffd;
+    background-color: #f4f4f4;
+}
+.colorBox{
+    width: 27px;
+    position: relative;
+    top: -8px;
+    height: 5px;
+    background-color: red;
+}
+.sketch-picker {
+    position: fixed;
+    top:5rem;
+}

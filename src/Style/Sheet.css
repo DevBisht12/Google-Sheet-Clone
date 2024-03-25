@@ -1,0 +1,95 @@
+.sheet{
+    width:100%;
+    height: 84vh;
+    overflow: auto;
+}
+
+.sheet::-webkit-scrollbar {
+    width: 10px; 
+    height: 10px; 
+  }
+  
+
+  .sheet::-webkit-scrollbar-track {
+    background: hsla(0, 0%, 87%, 0.5);
+    border-radius: 5px; 
+  }
+  
+  .sheet::-webkit-scrollbar-thumb {
+    background: hsla(0, 0%, 60%, 0.5);
+    border-radius: 5px; 
+  }
+
+ input {
+    border: none;
+    height: 35px;
+
+    width: 160px;
+    padding: 0 5px;
+}
+input:focus {
+    outline: none !important;
+    border:2px solid royalblue;
+}
+table{
+    border-collapse: collapse;
+}
+.tableHead_cell{
+    /* padding: 5px 30px; */
+    /* width: 100%; */
+    text-align: center;
+    border: 1.5px solid hsla(0, 0%, 0%, 0.1);
+    background-color: #ffffff;
+    margin: 0;
+    font-weight: 300;
+}
+.tableBody_cell{
+    /* padding: 5px 30px; */
+    width: 100%;
+    text-align: center;
+    border: 1.5px solid hsla(0, 0%, 0%, 0.1);
+    background-color: #ffffff;
+    margin: 0;
+    font-weight: 300;
+}
+.serial_No{
+    padding: 5px 30px;
+    width: 100%;
+    text-align: center;
+    border: 1.5px solid hsla(0, 0%, 0%, 0.1);
+    background-color: #ffffff;
+    margin: 0;
+    font-weight: 300;
+}
+
+.addMoreRow{
+    padding: 1rem 2rem;
+    display: flex;
+    width: 25vw;
+    align-items: center;
+    justify-content: space-between;
+}
+.addMoreRow input {
+    width: 50px;
+    max-width: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.addMoreRow button{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 50px;
+    background-color: royalblue;
+    color: white;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.addMoreRow button:hover{
+    color: black;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition: 0.3s ease-in-out;
+}
+.addMoreRow span{
+    opacity: 80%;
+}
